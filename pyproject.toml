@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dagster-university"
+version = "0.1.0"
+description = ""
+authors = ["Juanse Vargas MBP16 <jsvargasc@unal.edu.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+requests = "^2.32.3"
+dagster = "~=1.7"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
